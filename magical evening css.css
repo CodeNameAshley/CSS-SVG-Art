@@ -1,0 +1,242 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.canvas{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: pink;
+  width: 100%;
+  height: 100vh;
+}
+
+.background {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 80vmin;
+  height: 80vmin;  
+  border-radius: 50%;
+  background: #1C0C5B;
+}
+
+.background1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 60vmin;
+  height: 60vmin;  
+  border-radius: 50%;
+  background: #371f96;
+  bottom: 13vmin;
+}
+
+.background2{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 40vmin;
+  height: 40vmin;  
+  border-radius: 50%;
+  background: #141E61;
+  bottom: 17vmin;
+}
+
+.rectangle{
+  position: absolute;
+  width: 20vmin;
+  height: 25vmin;
+  background: #916BBF;
+  bottom: 15vmin;
+  right: 30vmin;  
+}
+
+.circle {
+  position: absolute;
+  width: 20vmin;
+  height: 20vmin;
+  border-radius: 50%;
+  background: #916BBF;
+  bottom: 30vmin;
+  right: 30vmin;  
+}
+
+.carpet {
+  border-bottom: 37.5vmin solid #7D1935;
+  border-left: 30vmin solid transparent;
+  border-right: 30vmin solid transparent;
+  height: 3;
+  width: 22.5vmin;
+  bottom: -10vmin;
+  position: absolute;
+}
+
+.carpet2 {
+  border-bottom: 37.5vmin solid #A2416B;
+  border-left: 25vmin solid transparent;
+  border-right: 25vmin solid transparent;
+  height: 3;
+  width: 22.5vmin;
+  bottom: -10vmin;
+  position: absolute;
+}
+
+.moon {
+  position: absolute;
+  width: 8vmin;
+  height: 8vmin;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #FFA900;
+  bottom: 40vmin;
+  right: 35vmin;
+}
+.moon2 {
+  position: absolute;
+  width: 8vmin;
+  height: 8vmin;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #FFA900;
+  bottom: 33vmin;
+  right: 38vmin;
+  transform: rotateZ(90deg);
+}
+
+.blackrec {
+  position: absolute;
+  width: 19vmin;
+  height: 25vmin;
+  background: #0d0030;
+  bottom: 15vmin;
+  right: 30.5vmin;
+}
+
+.blackcir{
+  position: absolute;
+  width: 19vmin;
+  height: 19vmin;
+  border-radius: 50%;
+  background: #0d0030;
+  bottom: 30vmin;
+  right: 30.5vmin; 
+}
+
+.outercir {
+  position: absolute;
+  width: 12.5vmin;
+  height: 12.5vmin;
+  background: #FF7A00;
+  border-radius: 50%;
+  right: 3vmin;
+  bottom: 1vmin;
+}
+
+.innercir {
+  position: absolute;
+  width: 10vmin;
+  height: 10vmin;
+  background: rgb(255, 90, 90);
+  border-radius: 50%;
+  right: 1vmin;
+  bottom: 5vmin;
+}
+
+
+.colors{
+background-color: #1C0C5B;
+background-color:#3D2C8D;
+background-color:#916BBF;
+background-color: #C996CC; 
+}
+
+.stars {
+
+  width: 0px;
+  height: 0px;
+  border: 50px solid transparent;
+  border-bottom: 70px solid #FFEFCF;
+  position: absolute;
+  bottom: 65vmin;
+  right: 20vmin;
+}
+.stars:after {
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 70px;
+  width: 0px;
+  height: 0px;
+  border: 50px solid transparent;
+  border-top: 70px solid #FFEFCF;
+}
+
+.stars2 {
+
+  width: 0px;
+  height: 0px;
+  border: 50px solid transparent;
+  border-bottom: 70px solid #FFEFCF;
+  position: absolute;
+  bottom: 25vmin;
+  left: 15vmin;
+}
+.stars2:after {
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 70px;
+  width: 0px;
+  height: 0px;
+  border: 50px solid transparent;
+  border-top: 70px solid #FFEFCF;
+}
+
+.stars3 {
+  width: 0vmin;
+  height: 0vmin;
+  border: 3vmin solid transparent;
+  border-bottom: 6vmin solid #FF8474;
+  position: absolute;
+  bottom: 55vmin;
+  left: 23vmin;
+}
+.stars3:after {
+  content: '';
+  position: absolute;
+  left: -3vmin;
+  top: 6vmin;
+  width: 0vmin;
+  height: 0vmin;
+  border: 3vmin solid transparent;
+  border-top: 6vmin solid #FF8474
+}
+
+.stars4 {
+  width: 0vmin;
+  height: 0vmin;
+  border: 3vmin solid transparent;
+  border-bottom: 6vmin solid #FF8474;
+  position: absolute;
+  bottom: 15vmin;
+  right: 20vmin;
+}
+
+.stars4:after {
+  content: '';
+  position: absolute;
+  left: -3vmin;
+  top: 6vmin;
+  width: 0vmin;
+  height: 0vmin;
+  border: 3vmin solid transparent;
+  border-top: 6vmin solid #FF8474
+}
